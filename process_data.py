@@ -5,7 +5,7 @@ OUTPUT_PATH = "output_data.json"
 
 # Processing function
 def process_value(x):
-    return 2 * x + 1
+    return 3 * x + 1
 
 
 # Read in raw data
