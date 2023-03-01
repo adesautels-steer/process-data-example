@@ -5,7 +5,11 @@ OUTPUT_PATH = "output_data.json"
 
 # Processing function
 def process_value(x):
-    return 5 * x + 1
+    if (5 * x % 2) == 1:
+        return 5 * x + 1
+    else:
+        return 5 * x
+    
 
 
 # Read in raw data
