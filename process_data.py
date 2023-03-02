@@ -8,10 +8,10 @@ def process_value(x):
     if (5 * x % 2) == 1:
         return 5 * x + 1
     else:
-        return extra_process(x)
+        return halve_till_two(x)
     
 # Second function for additional process
-def extra_process(x):
+def halve_till_two(x):
     while x > 2:
         x/2
     return x
