@@ -13,7 +13,7 @@ def process_value(x):
 # Second function for additional process
 def halve_till_two(x):
     while x > 2:
-        x/2
+        x = x/2
     return x
 
 # Read in raw data
