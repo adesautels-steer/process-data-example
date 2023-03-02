@@ -8,9 +8,13 @@ def process_value(x):
     if (5 * x % 2) == 1:
         return 5 * x + 1
     else:
-        return 5 * x
+        return extra_process(x)
     
-
+# Second function for additional process
+def extra_process(x):
+    while x > 2:
+        x/2
+    return x
 
 # Read in raw data
 with open(INPUT_PATH, "r", encoding="utf-8") as input_data:
