@@ -5,10 +5,10 @@ OUTPUT_PATH = "output_data.json"
 
 # Processing function
 def process_value(x):
-    if (7 * x % 2) == 1:
-        return 7 * x + 1
+    if (8 * x % 2) == 1:
+        return 8 * x + 1
     else:
-        return 7 * x
+        return 8 * x
     
 
 
