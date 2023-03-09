@@ -5,8 +5,8 @@ OUTPUT_PATH = "output_data.json"
 
 # Processing function
 def process_value(x):
-    if (5 * x % 2) == 1:
-        return 5 * x + 1
+    if (8 * x % 2) == 1:
+        return 8 * x + 1
     else:
         return halve_till_two(x)
     
